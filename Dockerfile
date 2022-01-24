@@ -3,7 +3,7 @@ FROM plugins/base:linux-amd64
 ENV XDG_DATA_HOME=/opt/xdg
 ENV XDG_CACHE_HOME=/opt/xdg
 ENV HELM_VERSION=v3.7.2
-ENV HELM_PUSH_PLUGIN_VERSION=v0.9.0
+ENV HELM_PUSH_PLUGIN_VERSION=v0.10.1
 
 RUN apk add curl tar bash --no-cache
 RUN set -ex \
